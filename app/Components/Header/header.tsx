@@ -1,7 +1,7 @@
 'use client'
 import style from "./header.module.css";
 import Link from "next/link";
-import Theme from "../theme/Theme";
+import Theme from "../Toggle-mode/Theme";
 
 //font
 import { poppins } from "../../About/page";
