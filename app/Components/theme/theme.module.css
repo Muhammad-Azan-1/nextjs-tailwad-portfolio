@@ -1,0 +1,9 @@
+@media (max-width:768px){
+    .main{
+        position: absolute;
+        right: 20px;
+        top: 23px;
+        z-index: -1;
+        
+    }
+}

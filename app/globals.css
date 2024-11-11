@@ -10,56 +10,16 @@
   padding:0 ;
   font-family: 'Poppins';
   box-sizing: border-box;
-  text-decoration: none;
-  scroll-behavior: smooth;
-  border:none;
   transition: all 0.2s;
+  border: none;
 }
 
-:root{
-  --bg-color: #fdfdfd;
-  --text-color: #333;
-  --main-color: #744afd;
-  --white-color:#fdfdfd;
-  --shadow-color:rgba(0,0,0,.2);
 
-}
 
 html{
   font-size: 62.5%;
-  overflow-x: hidden;
-}
-
-body{
-  background-color: var(--bg-color);
-  color:var(--text-color) ;
-}
-
-.dark-mode{
-  background-color: #0a0225;
-  color: var(--white-color);
-
 }
 
 
-@keyframes slideFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 
-@keyframes slideFromRight {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
+

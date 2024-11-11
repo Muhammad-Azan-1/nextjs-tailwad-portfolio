@@ -1,0 +1,72 @@
+.barIcon {
+  display: none;
+}
+
+.navbar .navbarInner .closeIcon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .main {
+    z-index: 1000;
+  }
+  .logo {
+    position: absolute;
+    z-index: -1;
+  }
+  .navbar {
+    position: absolute;
+    width: 100%;
+    background-color: #744afd;
+    height: 100vh;
+    top: 0px;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .navbarInner {
+    height: 100%;
+    width: 100%;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+  }
+  .navbarInner a {
+    margin-left: 0;
+    font-size: 2.3rem;
+    color: white;
+  }
+
+  .barIcon {
+    display: inline-block;
+    position: fixed;
+    top: 19px;
+    right: 80px;
+    font-size: 2rem;
+  }
+
+  .navbar .navbarInner .closeIcon {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: white;
+    font-size: 3rem;
+  }
+
+  .hiddeMenu {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .showMwenu {
+    transform: translateY(0);
+  opacity: 1;
+  transition: 0.5s;
+  }
+}

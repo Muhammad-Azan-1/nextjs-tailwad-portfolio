@@ -15,14 +15,6 @@ export default {
         secondary: "#333",
         main:'#754ef9',
       },
-      screens: {
-        'sm': '600px', // Custom 'sm' breakpoint
-        'md': '700px', // Custom 'md' breakpoint, adjusted from the default 768px
-        'lg': '1024px',
-        'xl': '1280px',
-        '2xl': '1536px',
-      },
-
     },
   },
   plugins: [],
