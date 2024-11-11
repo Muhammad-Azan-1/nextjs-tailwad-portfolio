@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {urbanist } from "../About/page";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <Header />
@@ -133,4 +133,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

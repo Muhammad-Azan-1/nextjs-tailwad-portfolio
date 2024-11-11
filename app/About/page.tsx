@@ -15,7 +15,7 @@ export const poppins = Poppins({
   subsets: ["latin"],
 });
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <Header />
@@ -76,4 +76,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

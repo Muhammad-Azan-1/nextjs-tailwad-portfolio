@@ -11,7 +11,7 @@ import {faSquareInstagram,faLinkedin, faSquareFacebook,faTwitter,} from "@fortaw
 //Fonts
 import { poppins,urbanist } from "../../About/page";
 
-const hero = () => {
+const Hero = () => {
   return (
     <>
       <div
@@ -107,4 +107,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;

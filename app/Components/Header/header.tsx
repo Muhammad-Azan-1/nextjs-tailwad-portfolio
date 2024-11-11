@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 import { useState } from "react";
-const header = () => {
+const Header = () => {
   const [menu, setmenu] = useState(false);
 
   function ToggleMenu() {
@@ -90,4 +90,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

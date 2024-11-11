@@ -3,7 +3,7 @@
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
       <div className="w-full p-[10px] bg-main text-primary inline-block text-[1.5rem] h-[50px] text-center">
@@ -15,4 +15,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

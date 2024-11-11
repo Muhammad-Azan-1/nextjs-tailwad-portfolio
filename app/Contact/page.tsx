@@ -2,7 +2,7 @@ import Header from "../Components/Header/header";
 // fonts
 import {urbanist } from "../About/page";
 import style from "./page.module.css";
-const page = () => {
+const Page = () => {
   return (
     <>
       <Header />
@@ -72,4 +72,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
