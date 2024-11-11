@@ -11,11 +11,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { useState } from "react";
 const header = () => {
-  let [menu, setmenu] = useState(false);
+  const [menu, setmenu] = useState(false);
 
-  function toggleMenu() {
+  function ToggleMenu() {
     setmenu((prevsVal) => !prevsVal);
   }
+
   return (
     <>
       <div
@@ -31,7 +32,7 @@ const header = () => {
 
         {/* bars to Open menu */}
         <div
-          onClick={toggleMenu}
+          onClick={ToggleMenu}
           className={`${style.barIcon} text-main dark:text-white`}
         >
           {" "}
@@ -45,7 +46,7 @@ const header = () => {
         >
           <div className={`${style.navbarInner} w-[100%]`}>
             {/* cross bar to Close menu */}
-            <div onClick={toggleMenu} className={`${style.closeIcon}`}>
+            <div onClick={ToggleMenu} className={`${style.closeIcon}`}>
               <FontAwesomeIcon icon={faTimes} />
             </div>
             <Link
